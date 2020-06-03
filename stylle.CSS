@@ -1,0 +1,145 @@
+<style>
+	.firstimg
+	{
+		width:25%;
+		position:relative;
+		top:0;
+		left:0;
+		margin:0 auto;
+	}
+	.secondimg
+	{
+		width:15%;
+		position:absolute;
+		top:28px;
+		left:40px;
+		margin:0 auto;
+	}
+	.heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:50%;
+		width:100%;
+		text-align:top;
+		font-size:3rem;
+		text-shadow:5px 5px 10px #000000;
+		margin:0 10px;
+		
+	}
+	#highlight
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:60%;
+		width:30%;
+		text-align:top;
+		font-size:1rem;
+		text-shadow:5px 5px 10px #000000;
+		margin:0 10px;
+	}
+	body
+	{
+		background-color:#0f2e51;
+		padding:0;
+		margin:0;
+	}
+	section{
+		padding:20px;
+	}
+	#uv
+	{
+		margin:0 0 15px 0;
+		color:white;
+		font-size:1.5vw;
+		font-weight:250%;
+		font-family:'poppins',sans-serif;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		text-shadow:5px 5px 10px #000000;
+	}
+	p{
+		text-align:justify;
+		font-size:14px;
+		font-family:'work sans',sans-serif;
+	}
+	#readmore
+	{
+		display:none;
+		
+	}
+	.more{
+		display:none;
+	}
+	.About{
+		color:white;
+		font-size:15pxpx;
+		text-align:justify;
+		line-height:20pxpx;
+		font-family:'work sans',sans-serif;
+	}
+	button{
+		margin-top:10px;
+		display:block;
+		background-color:#333S;
+		color:black;
+		border:none;
+		outline:none;
+		padding:5px 15px;
+		text-transform:capitalize;
+		text-shadow:5px 5px 10px #000000;
+		cursor:;pointer;
+		font-size:15px;
+	}
+	#uvi
+	{
+		margin:0 0 15px 0;
+		color:white;
+		font-size:1.5vw;
+		font-weight:250%;
+		font-family:'poppins',sans-serif;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		text-shadow:5px 5px 10px #000000;
+	}
+	p{
+		text-align:justify;
+		font-size:14px;
+		font-family:'work sans',sans-serif;
+	}
+	#SeeAll
+	{
+		display:none;
+		
+	}
+	.more{
+		display:none;
+	}
+	.Aboutt{
+		color:white;
+		font-size:15pxpx;
+		text-align:justify;
+		line-height:20pxpx;
+		font-family:'work sans',sans-serif;
+	}
+	button1{
+		margin-top:10px;
+		display:block;
+		background-color:#333S;
+		color:black;
+		border:none;
+		outline:none;
+		padding:5px 15px;
+		text-transform:capitalize;
+		text-shadow:5px 5px 10px #000000;
+		cursor:;pointer;
+		font-size:15px;
+	}
+</style>	
+	
