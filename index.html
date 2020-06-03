@@ -1,0 +1,49 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="veiwport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="refresh" content="05">
+		<tittle>Read More</title>
+		<link rel="stylesheet" href="stylee.css">
+	</head>
+	<body>
+			<div class="About">
+				<h1>About us</h1>
+				<p id="readless">We’re a community that can help you realize your definition of success.Founded in 2018, KloudOne is a premier cloud enterprise company with expertise in providing enterprise solutions in  ecommerce, advertisement, and cybersecurity sector.<span id='dots'>...</span></p>
+			    <p id="readmore">Within a really short period of its inauguration the company has risen to providing solutions to major enterprises like RiskSense etc. The company excels in cloud based technologies like Amazon Web Services, Google Cloud Platform and Microsoft's Azure platform. 
+				
+				<br>KloudLearn a subsidary of KloudOne is one of country’s best vernacular learning platform with live courses on Kubernetes, Docker etc. 
+
+                <br>KloudOne encourages engineers to think out of the box and play with latest technologies and explore their limits. 
+
+                <br>KloudOne is looking for a “Rockstar” big data, java engineer to help build, scale and maintain the critical data warehouse.
+
+				<br>KloudOne actively contributes to the community with its employees spending 20% of time participating in open source projects (a google mantra company acquired).</p>
+			<button id="read" onclick="read()">readmore</button>
+			</div>
+		<script>
+		var i =0;
+		var readmore=document.getElementById('readmore');
+		var dots=document.getElementById('dots');
+		var btn=document.getElementById('read');
+		function read()
+		{	
+			if(i==0)
+			{
+				readmore.style.display="block";
+				dots.style.display="none";
+				btn.innerHTML="readless";
+				i=1;
+			}
+			else
+			{
+				readless.style.display="none";
+				dots.style.display="block";
+				
+				i=0;
+			}
+		}	
+		</script>	
+	</body>
+	</html>	
