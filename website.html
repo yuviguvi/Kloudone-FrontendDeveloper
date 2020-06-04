@@ -1,93 +1,234 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="veiwport" content="width=device-width,initial-scale=1.0">
-		<meta http-equiv="refresh" content="05">
-		<tittle>Read More</title>
-		<link rel="stylesheet" href="stylee.css">
-		<meta charset="utf-8">
-		<tittle>Kloudeone Trainee's</tittle>
-		<link rel="stylesheet" href="stylle.css">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	</head>
-	<body>
-	<a href="form.html">JoinNow</a>	
-	<form id="form1" runat="server">
-		<div>
-			<img src="linkedin-network-image.png" class="firstimg">
-			<h6 class="heading">KloudeoneTrainee</h6>
-			<p id="highlight">Computer software company<br> Santa Clara,CA. 4,213 followers</p>
-			<img src="kloudone.jpg" class="secondimg">
-		</div>
-	</form>
-		<div class="About">
-			<h1 id="uv">About us</h1>
-			<p id="readless">We’re a community that can help you realize your definition of success.Founded in 2018, KloudOne is a premier cloud enterprise company with expertise in providing enterprise solutions in  ecommerce, advertisement, and cybersecurity sector.<span id='dots'>...</span></p>
-			<p id="readmore">Within a really short period of its inauguration the company has risen to providing solutions to major enterprises like RiskSense etc. The company excels in cloud based technologies like Amazon Web Services, Google Cloud Platform and Microsoft's Azure platform. 
-				
-			<br>KloudLearn a subsidary of KloudOne is one of country’s best vernacular learning platform with live courses on Kubernetes, Docker etc. 
+<html lang="en">
+<head>
+<title>KloudOne</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.firstimg
+	{
+		width:10px;
+		top:0;
+		left:0;
+		
+	}
+.secondimg
+	{
+		width:15%;
+		position:absolute;
+		top:100px;
+		left:33%;
+		margin:0 auto;
+	}
+.heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:10%;
+		width:100%;
+		text-align:top;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		margin:2px 0;
+		
+	}
+#readless{
+	font-size:20px;
+}
+#over{
+	font-size:20px;
+}
+body {
+  max-width:100%;
+  margin: auto;
+}
 
-            <br>KloudOne encourages engineers to think out of the box and play with latest technologies and explore their limits. 
+/* Style the header */
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
 
-            <br>KloudOne is looking for a “Rockstar” big data, java engineer to help build, scale and maintain the critical data warehouse.
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
-			<br>KloudOne actively contributes to the community with its employees spending 20% of time participating in open source projects (a google mantra company acquired).</p>
-			<button id="read" onclick="read()">readmore</button>
-		</div>
-		<script>
-			var i =0;
-			var readmore=document.getElementById('readmore');
-			var dots=document.getElementById('dots');
-			var btn=document.getElementById('read');
-			function read()
-			{	
-				if(i==0)
-				{
-					readmore.style.display="block";
-					dots.style.display="none";
-					btn.innerHTML="readless";
-					i=1;
-				}
-				else
-				{
-					readless.style.display="none";
-					dots.style.display="block";
-				
-					i=0;
-				}
-			}	
-		</script>
-		<br>
-		<br>
-		<div class="Aboutt">
-			<h1 id="uvi">Frontend Trainee's List</h1>
-			<p id="over">1.YuvashreeMahendran<br>2.Swathi<span id='dots'>...</span></p>
-			<p id="SeeAll">3.Aloksharma <br>4.Reema<br>5.Ashwath<br>6.NavneetBhardwaj<br>7.Himanchu</p>
-			<button id="reade" onclick="reade()">See All</button>
-		</div>
-		<script>
-			var i =0;
-			var SeeAll=document.getElementById('SeeAll');
-			var dots=document.getElementById('dots');
-			var btn=document.getElementById('reade');
-			function reade()
-			{	
-				if(i==0)
-				{
-					SeeAll.style.display="block";
-					dots.style.display="none";
-					btn.innerHTML="over";
-					i=1;
-				}
-				else
-				{
-					over.style.display="none";
-					dots.style.display="block";
-				
-					i=0;
-				}
-			}	
-		</script>	
-	</body>
-</html>	
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg" class="firstimg" style="width:40%">
+  <img src="https://media-exp1.licdn.com/dms/image/C560BAQEPXjD3pyqUPg/company-logo_200_200/0?e=2159024400&v=beta&t=tFvsV1yzSaXnoti0BVTdp54iPElLcRJmMXpFC2dXvHE" class="secondimg" style="width:8%">
+  <h6 class="heading">Kloudone Trainee</h6>
+</div>
+
+<div class="topnav">
+  <a href="#" onclick="myfunc()">About Us</a>
+  <a href="#" onclick="myemp()">Employees</a>
+  <a href="#" onclick="special()">Specialties</a>
+  <a href="#" onclick="sol()">Solutions</a>
+  <a href="#" onclick="joinnow()">Join Now</a>
+  <a href="#" onclick="blog()">Blog</a>
+</div>
+
+<div class="row">
+
+	<div class="About" id="dem" style="display:none" >
+				<h1 id="uv">About us</h1>
+				<p id="readless" style="text-align:justify">We’re a community that can help you realize your definition of success.Founded in 2018, KloudOne is a premier cloud enterprise company with expertise in providing enterprise solutions in  ecommerce, advertisement, and cybersecurity sector.
+				Within a really short period of its inauguration the company has risen to providing solutions to major enterprises like RiskSense etc. The company excels in cloud based technologies like Amazon Web Services, Google Cloud Platform and Microsoft's Azure platform. 
+				KloudLearn a subsidary of KloudOne is one of country’s best vernacular learning platform with live courses on Kubernetes, Docker etc. 
+				KloudOne encourages engineers to think out of the box and play with latest technologies and explore their limits. 
+				KloudOne is looking for a “Rockstar” big data, java engineer to help build, scale and maintain the critical data warehouse.
+				KloudOne actively contributes to the community with its employees spending 20% of time participating in open source projects (a google mantra company acquired).</p>
+	</div>
+ 
+  <div class="Aboutt" id="emp" style="display:none">
+			<h1 id="uvi">Frontend Trainee's</h1>
+			<p id="over">1.YuvashreeMahendran<br>2.Swathi<br>
+			3.Aloksharma <br>4.Reema<br>5.Ashwath<br>6.NavneetBhardwaj<br>7.Himanchu</p>
+
+  </div>
+  <div class="Aboutt" id="spl" style="display:none">
+			<h1 id="uvi">Specialties</h1>
+			<p id="over">1.GCP<br>2.EC2<br>
+			3.Re-engineering <br>4.Lift-and-Shift<br>5.Kubernetes<br>6.GKE<br>7.OpenShift</p>
+
+  </div>
+  <div class="Aboutt" id="sol" style="display:none">
+			<h1 id="uvi">Solutions</h1>
+			<p id="over">1.Rehosting - Rehost / lift and shift your application to the cloud<br>2.Replatform - Lift, Modernize, Shift your application stack from colo datacentres to the cloud<br>
+			3.Re-engineering - Microservices, Kubernetes, API<br>4.Oracle to Postgres - Kloudlearn offers Oracle to Postgres migrations to help enterprises save on licensing on the cloud, as well as ensuring that their critical managed databasese don't lose support.<br></p>
+
+  </div>
+  <div class="Aboutt" id="join" style="display:none">
+			<h1 id="uvi">Join Now</h1>
+			<a href="https://www.linkedin.com/company/kloudone">LinkedIn</a>
+
+  </div>
+  <div class="Aboutt" id="blog" style="display:none">
+			<iframe src="https://www.kloudone.com/" height="900px" width="100%" ></iframe>
+  </div>
+  
+</div>
+<script>
+var i=0;
+function myfunc()
+{
+	 document.getElementById("dem").style.display = "block";
+	 document.getElementById("emp").style.display = "none";
+	 document.getElementById("spl").style.display = "none";
+	 document.getElementById("sol").style.display = "none";
+	 document.getElementById("join").style.display = "none";
+	 document.getElementById("blog").style.display = "none";
+}
+function myemp()
+{
+	 document.getElementById("dem").style.display = "none";
+	 document.getElementById("emp").style.display = "block";
+	 document.getElementById("spl").style.display = "none";
+	 document.getElementById("sol").style.display = "none";
+	 document.getElementById("join").style.display = "none";
+	 
+}
+function special()
+{
+	 document.getElementById("sol").style.display = "none";
+	 document.getElementById("spl").style.display = "block";
+	 document.getElementById("emp").style.display = "none";
+	 document.getElementById("dem").style.display = "none";
+	 document.getElementById("join").style.display = "none";
+	 
+}
+function sol()
+{
+     document.getElementById("sol").style.display = "block";
+	 document.getElementById("spl").style.display = "none";
+	 document.getElementById("emp").style.display = "none";
+	 document.getElementById("dem").style.display = "none";
+	 document.getElementById("join").style.display = "none";
+	 document.getElementById("blog").style.display = "none";
+	 
+}
+function joinnow()
+{
+	 document.getElementById("join").style.display = "block";
+     document.getElementById("sol").style.display = "none";
+	 document.getElementById("spl").style.display = "none";
+	 document.getElementById("emp").style.display = "none";
+	 document.getElementById("dem").style.display = "none";
+	 document.getElementById("blog").style.display = "none";
+	 
+}
+function blog()
+{
+	 document.getElementById("blog").style.display = "block";
+	 document.getElementById("join").style.display = "none";
+     document.getElementById("sol").style.display = "none";
+	 document.getElementById("spl").style.display = "none";
+	 document.getElementById("emp").style.display = "none";
+	 document.getElementById("dem").style.display = "none";
+	 
+}
+</script>
+</body>
+</html>
+
