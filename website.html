@@ -8,19 +8,12 @@
 * {
   box-sizing: border-box;
 }
-.firstimg
-	{
-		width:10px;
-		top:0;
-		left:0;
-		
-	}
 .secondimg
 	{
 		width:15%;
 		position:absolute;
-		top:100px;
-		left:33%;
+		top:120px;
+		left:13%;
 		margin:0 auto;
 	}
 .heading
@@ -30,34 +23,34 @@
 		background:none;
 		color:white;
 		position:absolute;
-		top:10%;
+		top:15%;
 		width:100%;
 		text-align:top;
 		font-size:1.7rem;
 		text-shadow:5px 5px 10px #000000;
-		margin:2px 0;
+		padding-left:350px;
 		
 	}
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 150px 0;
+}
 #readless{
 	font-size:20px;
+	padding-left:5px;
 }
 #over{
 	font-size:20px;
+	padding-left:5px;
 }
 body {
   max-width:100%;
   margin: auto;
 }
 
-/* Style the header */
-.header {
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  padding: 20px;
-  text-align: center;
-}
 
 /* Style the top navigation bar */
 .topnav {
@@ -105,17 +98,46 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
+@media screen and (max-width: 500px) {
+
+.header {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 150px 0;
+  
+}
+  .secondimg
+	{
+		width:100%;
+		position:absolute;
+		top:10px;
+		left:3%;
+		margin:0 auto;
+        
+	}
+    .heading
+	{
+		border:none;
+		outline:none;
+		background:none;
+		color:white;
+		position:absolute;
+		top:5%;
+		width:10%;
+		text-align:top;
+		font-size:1.7rem;
+		text-shadow:5px 5px 10px #000000;
+		padding-left:35px;
+		
+	}
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f26723c1-0248-4fd5-a88a-69a23616c9ad/d2dwehu-a1f916a6-b228-478e-b721-b58c12494592.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjI2NzIzYzEtMDI0OC00ZmQ1LWE4OGEtNjlhMjM2MTZjOWFkXC9kMmR3ZWh1LWExZjkxNmE2LWIyMjgtNDc4ZS1iNzIxLWI1OGMxMjQ5NDU5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WrqdN30YLUQ-L-NAFt6jkKGyYQGnfJc0kGlqyO7tXgg" class="firstimg" style="width:40%">
   <img src="https://media-exp1.licdn.com/dms/image/C560BAQEPXjD3pyqUPg/company-logo_200_200/0?e=2159024400&v=beta&t=tFvsV1yzSaXnoti0BVTdp54iPElLcRJmMXpFC2dXvHE" class="secondimg" style="width:8%">
   <h6 class="heading">Kloudone Trainee</h6>
 </div>
@@ -187,6 +209,7 @@ function myemp()
 	 document.getElementById("spl").style.display = "none";
 	 document.getElementById("sol").style.display = "none";
 	 document.getElementById("join").style.display = "none";
+	 document.getElementById("blog").style.display = "none";
 	 
 }
 function special()
@@ -196,6 +219,7 @@ function special()
 	 document.getElementById("emp").style.display = "none";
 	 document.getElementById("dem").style.display = "none";
 	 document.getElementById("join").style.display = "none";
+	 document.getElementById("blog").style.display = "none";
 	 
 }
 function sol()
@@ -231,4 +255,3 @@ function blog()
 </script>
 </body>
 </html>
-
